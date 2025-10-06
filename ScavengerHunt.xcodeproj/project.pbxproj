@@ -35,11 +35,6 @@
 			path = ScavengerHunt;
 			sourceTree = "<group>";
 		};
-		7B194EE42E942216000F4BC0 /* ScavengerHuntTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScavengerHuntTests;
-			sourceTree = "<group>";
-		};
 		7B194EEE2E942216000F4BC0 /* ScavengerHuntUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScavengerHuntUITests;
@@ -76,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				7B194EFE2E94240E000F4BC0 /* App */,
-				7B194EE42E942216000F4BC0 /* ScavengerHuntTests */,
 				7B194EEE2E942216000F4BC0 /* ScavengerHuntUITests */,
 				7B194ED52E942212000F4BC0 /* Products */,
 			);
@@ -177,9 +171,6 @@
 			);
 			dependencies = (
 				7B194EE32E942216000F4BC0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7B194EE42E942216000F4BC0 /* ScavengerHuntTests */,
 			);
 			name = ScavengerHuntTests;
 			packageProductDependencies = (
