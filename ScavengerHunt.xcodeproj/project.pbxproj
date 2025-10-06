@@ -75,7 +75,7 @@
 		7B194ECB2E942211000F4BC0 = {
 			isa = PBXGroup;
 			children = (
-				7B194ED62E942212000F4BC0 /* ScavengerHunt */,
+				7B194EFE2E94240E000F4BC0 /* App */,
 				7B194EE42E942216000F4BC0 /* ScavengerHuntTests */,
 				7B194EEE2E942216000F4BC0 /* ScavengerHuntUITests */,
 				7B194ED52E942212000F4BC0 /* Products */,
@@ -90,6 +90,54 @@
 				7B194EEB2E942216000F4BC0 /* ScavengerHuntUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7B194EFE2E94240E000F4BC0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B194EFF2E9424A4000F4BC0 /*  Models  */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7B194EFF2E9424A4000F4BC0 /*  Models  */ = {
+			isa = PBXGroup;
+			children = (
+				7B194F002E9424E4000F4BC0 /* Views  */,
+			);
+			path = " Models ";
+			sourceTree = "<group>";
+		};
+		7B194F002E9424E4000F4BC0 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				7B194F012E94254E000F4BC0 /* Services */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		7B194F012E94254E000F4BC0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B194F022E94258A000F4BC0 /* Resources */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B194F022E94258A000F4BC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B194F042E9425EB000F4BC0 /* Tests */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7B194F042E9425EB000F4BC0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B194ED62E942212000F4BC0 /* ScavengerHunt */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
